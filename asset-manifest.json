@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.be387b7b.css",
+    "main.js": "/static/js/main.70b631e1.js",
+    "static/js/787.b2e1b36e.chunk.js": "/static/js/787.b2e1b36e.chunk.js",
+    "static/media/burgerBlur.png": "/static/media/burgerBlur.02ad84faa8897ab9b068.png",
+    "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.c477ec326ec5faea4705.ttf",
+    "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.681f96db2bcb69f520b5.ttf",
+    "static/media/avatar.png": "/static/media/avatar.b6270d6f92370615f589.png",
+    "static/media/gamblingBlur.png": "/static/media/gamblingBlur.8c358ab42276b17f4a9f.png",
+    "static/media/Merriweather-Bold.ttf": "/static/media/Merriweather-Bold.ae39f743fdcf8f64531e.ttf",
+    "index.html": "/index.html",
+    "main.be387b7b.css.map": "/static/css/main.be387b7b.css.map",
+    "main.70b631e1.js.map": "/static/js/main.70b631e1.js.map",
+    "787.b2e1b36e.chunk.js.map": "/static/js/787.b2e1b36e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be387b7b.css",
+    "static/js/main.70b631e1.js"
+  ]
+}
