@@ -1,0 +1,32 @@
+.item_text {
+    color: var(--color-primary);
+}
+
+.item_image {
+    width: 50px;
+    height: 50px;
+}
+
+.empty_skill-description {
+    margin: auto;
+    width: 75%;
+    margin-top: 100px;
+    height: 200px;
+    background-color: none;
+    border-radius: 20px;
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+.skills_container {
+    margin-top: 50px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    justify-content: center;
+    align-content: center;
+}
+
+@media (max-width: 760px) {
+    .skills_container {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}

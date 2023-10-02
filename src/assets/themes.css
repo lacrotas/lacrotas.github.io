@@ -1,0 +1,31 @@
+:root {
+    /* light theme tokens */
+    --background-light: #F6F2F6;
+    --stroke-light: #1C222E;
+    --color-light: #1C222E;
+    --colorSecond-light: #575D69;
+    --backgroundOpacity-light: rgba(255,255,255,0.5);
+    /* dark theme tokens */
+    --background-dark: #1C222E;
+    --stroke-dark: #FFF;
+    --color-dark: #F6F2F6;
+    --colorSecond-dark: #575D69;
+    --backgroundOpacity-dark: rgba(0,0,0,0.5);
+
+}
+
+[data-theme='light'] {
+    --background-primary: var(--background-light);
+    --color-primary: var(--color-light);
+    --colorSecond-primary: var(--colorSecond-light);
+    --backgroundOpacity-primary: var(--backgroundOpacity-light);
+    --stroke-primary: var(--stroke-light);
+}
+
+[data-theme='dark'] {
+    --background-primary: var(--background-dark);
+    --color-primary: var(--color-dark);
+    --colorSecond-primary: var(--colorSecond-dark);
+    --backgroundOpacity-primary: var(--backgroundOpacity-dark);
+    --stroke-primary: var(--stroke-dark);
+}

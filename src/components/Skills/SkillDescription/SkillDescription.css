@@ -1,0 +1,19 @@
+.description {
+    margin-top: 100px;
+    height: 250px;
+    border-radius: 50px;
+}
+.description_paragraph{
+    text-align: left;
+    list-style-type: disc;
+}
+@media (max-width: 1000px) {
+    .description ul{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+@media (max-width: 600px) {
+    .description ul{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}

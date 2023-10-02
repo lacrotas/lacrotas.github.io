@@ -1,0 +1,21 @@
+.skill_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.skill_item:hover{
+    cursor: pointer;
+}
+
+.skill_item .item_image{
+    filter: grayscale(80%);
+}
+.skill_item-active .item_text{
+    font-weight: 900;
+}
+
+.skill_item-active .item_image{
+    transform: scale(1.2);
+    filter: grayscale(0%);
+}
