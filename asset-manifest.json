@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.be387b7b.css",
-    "main.js": "/static/js/main.70b631e1.js",
+    "main.css": "/static/css/main.7b1e8cf3.css",
+    "main.js": "/static/js/main.978d7da3.js",
     "static/js/787.b2e1b36e.chunk.js": "/static/js/787.b2e1b36e.chunk.js",
-    "static/media/burgerBlur.png": "/static/media/burgerBlur.02ad84faa8897ab9b068.png",
     "static/media/Roboto-Bold.ttf": "/static/media/Roboto-Bold.c477ec326ec5faea4705.ttf",
     "static/media/Roboto-Medium.ttf": "/static/media/Roboto-Medium.681f96db2bcb69f520b5.ttf",
+    "static/media/cyberpankBlur.png": "/static/media/cyberpankBlur.07a5b28e9abe5ac678ca.png",
+    "static/media/burgerBlur.png": "/static/media/burgerBlur.4fb3a1c600ef9a0eec4c.png",
     "static/media/avatar.png": "/static/media/avatar.b6270d6f92370615f589.png",
-    "static/media/gamblingBlur.png": "/static/media/gamblingBlur.8c358ab42276b17f4a9f.png",
+    "static/media/gamblingBlur.png": "/static/media/gamblingBlur.8743e7a550ba9202d640.png",
     "static/media/Merriweather-Bold.ttf": "/static/media/Merriweather-Bold.ae39f743fdcf8f64531e.ttf",
+    "static/media/dellBlur.png": "/static/media/dellBlur.d64c8cc7d9192d50cca0.png",
     "index.html": "/index.html",
-    "main.be387b7b.css.map": "/static/css/main.be387b7b.css.map",
-    "main.70b631e1.js.map": "/static/js/main.70b631e1.js.map",
+    "main.7b1e8cf3.css.map": "/static/css/main.7b1e8cf3.css.map",
+    "main.978d7da3.js.map": "/static/js/main.978d7da3.js.map",
     "787.b2e1b36e.chunk.js.map": "/static/js/787.b2e1b36e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.be387b7b.css",
-    "static/js/main.70b631e1.js"
+    "static/css/main.7b1e8cf3.css",
+    "static/js/main.978d7da3.js"
   ]
 }
