@@ -12,13 +12,22 @@
   font-family: 'RobotoMedium';
   src: url('./assets/fonts/Roboto-Medium.ttf');
 }
-svg path, svg line, svg circle{
+
+svg path,
+svg line,
+svg circle {
   stroke: var(--stroke-primary);
 }
 
 body {
   background-color: var(--background-primary);
   margin-bottom: 150px;
+}
+
+.App {
+  width: 83.3%;
+  margin-left: 8.3%;
+  margin-right: 8.3%;
 }
 
 .myRef {
@@ -70,4 +79,12 @@ h2,
 .myinfo p {
   font-family: 'RobotoBold', sans-serif;
   color: var(--colorSecond-primary);
+}
+
+@media (max-width: 762px) {
+  .App {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
 }

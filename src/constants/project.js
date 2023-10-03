@@ -1,5 +1,8 @@
 import BurgerImage from "../assets/images/sitePreview/burgerBlur.png";
 import GamblingImage from "../assets/images/sitePreview/gamblingBlur.png";
+import CyberpankImage from "../assets/images/sitePreview/cyberpankBlur.png";
+import DellImage from "../assets/images/sitePreview/dellBlur.png";
+
 export const PROJECTS = [
     {
         label: "Burger",
@@ -22,7 +25,7 @@ export const PROJECTS = [
         label: "Cyber Pank",
         description: "Приложение по заказу такси",
         tehnology: ["Scss", "Html", "Java Script", "Gulp"],
-        image: BurgerImage,
+        image: CyberpankImage,
         link: "https://lacrotas.github.io/Cyberpank/",
         repozitory: "https://github.com/lacrotas/Cyberpank",
     },
@@ -30,7 +33,7 @@ export const PROJECTS = [
         label: "Dell",
         description: "Приложение по заказу такси",
         tehnology: ["Scss", "Html", "Java Script", "Gulp"],
-        image: BurgerImage,
+        image: DellImage,
         link: "https://lacrotas.github.io/Dell_NotePad/",
         repozitory: "https://github.com/lacrotas/Dell_NotePad",
     },

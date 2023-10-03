@@ -18,7 +18,7 @@ function Education({activeLanguage}) {
             {(scroll >= 180) &&
                 <div>
                     <div className="education_container flex justify-center">
-                        <div className="container_left w-1/4">
+                        <div className="container_left">
                             <div className="item_container item_container-react col-span-3 p-6 text-left">
                                 <h3 className="text-sm md:text-base">{activeLanguage.education.reactLabel}</h3>
                                 <p className="text-sm md:text-base  lg:w-60 w-40">{activeLanguage.education.reactText}</p>
@@ -41,7 +41,7 @@ function Education({activeLanguage}) {
                                 <line x1="7.4051" y1="161.556" x2="171.405" y2="207.556" stroke="white" strokeWidth="3" />
                             </svg>
                         </div>
-                        <div className="container_right w-1/4">
+                        <div className="container_right">
                             <div className="item_container item_container-innowise p-6 text-left">
                                 <h3 className="text-sm md:text-base">{activeLanguage.education.innowiseLabel}</h3>
                                 <p className="text-sm md:text-base lg:w-60 w-40">{activeLanguage.education.innowiseText}</p>

@@ -20,12 +20,12 @@ function Skills({ activeLanguage }) {
         }
     }
     return (
-        <section className="skills my_section mx-auto text-center">
+        <section className="skills my_section mx-auto text-center w-4/4">
             <h2>{activeLanguage.skills.label}</h2>
-            <div className="skills_container grid w-3/4 gap-5 mx-auto">
+            <div className="skills_container grid w-4/4 gap-5 mx-auto">
                 {activeLanguage.skills.skillList.map((item, index) => <SkillItem className={"skill_item"} key={index} image={item.image} label={item.label} setActiveItem={handleClick} index={index} />)}
             </div>
-            {(isItemChoosen && <SkillDescription arr={activeLanguage.skills.skillList[activeItem].skillArr} />) || <div className="empty_skill-description">{activeLanguage.skills.helpDescription}</div>}
+            {(isItemChoosen && <SkillDescription arr={activeLanguage.skills.skillList[activeItem].skillArr} />) || <div className="empty_skill-description w-3/4">{activeLanguage.skills.helpDescription}</div>}
         </section>
     );
 }
