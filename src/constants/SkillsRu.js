@@ -14,7 +14,7 @@ export const SKILLSRU = [
     {
         image:CssIcon,
         label:"Css 3",
-        skillArr: ["Селекторы", "Каскадирование", "Sass", "Анимация", "Медиа-запросы", "TailWind"],
+        skillArr: ["Селекторы", "Каскадирование", "Sass", "Анимация", "Медиа-запросы", "TailWind", "БЭМ методология"],
     },
     {
         image: JSIcon,
@@ -34,6 +34,6 @@ export const SKILLSRU = [
     {
         image: HtmlIcon,
         label:"Html",
-        skillArr: ["Теги", "Атрибуты", "Формы", "Адаптив", "Медиа-запросы"],
+        skillArr: ["Теги", "Атрибуты", "Формы", "Мета-теги"],
     },
 ];

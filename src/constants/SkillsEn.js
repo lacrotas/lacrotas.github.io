@@ -14,7 +14,7 @@ export const SKILLSEN = [
     {
         image:CssIcon,
         label:"Css 3",
-        skillArr: ["Selectors", "Cascading", "Sass", "Animation", "Media-request", "TailWind"],
+        skillArr: ["Selectors", "Cascading", "Sass", "Animation", "Media-request", "TailWind", "BEM metodology"],
     },
     {
         image: JSIcon,
@@ -34,6 +34,6 @@ export const SKILLSEN = [
     {
         image: HtmlIcon,
         label:"Html",
-        skillArr: ["Tags", "Attribute", "Forms", "Adaptive", "Meta-tags"],
+        skillArr: ["Tags", "Attribute", "Forms", "Meta-tags"],
     },
 ];
