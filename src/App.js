@@ -8,13 +8,16 @@ import Myinfo from './components/MyInfo/Myinfo';
 import Education from './components/Education/Education';
 import Skills from './components/Skills/Skills';
 import Contacts from './components/Contacts/Contacts';
+import EN from './constants/EN';
 
 function App() {
   const about = useRef(null);
   const projects = useRef(null);
   const contacts = useRef(null);
 
-  const [activeLanguage, setActiveLanguage] = useState(RU);
+  const acceptLanguage = navigator.language || navigator.userLanguage;
+
+  const [activeLanguage, setActiveLanguage] = useState(acceptLanguage === "ru-RU" ? RU: EN);
 
   const scrollToElement = (myRefName) => {
     if (myRefName === "about") {

@@ -1,15 +1,14 @@
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
-import DarkImage from '../../assets/images/darkTheme.png';
-import LightImage from '../../assets/images/whiteTheme.png';
+// import DarkImage from '../../assets/images/darkTheme.png';
+// import LightImage from '../../assets/images/whiteTheme.png';
 import "./Header.css";
 import RU from '../../constants/RU';
 import EN from '../../constants/EN';
-import BurgerImage from "../../assets/images/burger.png";
 
 const Header = ({ scrollToElement, setActiveLanguage, activeLanguage }) => {
     const [linkStyle, setLinkStyle] = useState(["header_li active", "header_li", "header_li"]);
-    const [isDarkTheme, setisDarktTeme] = useState(true);
+    // const [isDarkTheme, setisDarktTeme] = useState(true);
     const [isModalOpen, setIsModalOpen] = useState(false);
     function setActiveLanguageHandle() {
         if (activeLanguage === RU) {
@@ -30,16 +29,16 @@ const Header = ({ scrollToElement, setActiveLanguage, activeLanguage }) => {
         }
         return "header_li";
     }
-    function changeTheme(isDark) {
-        if (isDark) {
-            setisDarktTeme(true);
-            document.documentElement.setAttribute('data-theme', "dark");
-        } else {
-            setisDarktTeme(false);
-            document.documentElement.setAttribute('data-theme', "light");
-        }
-        setIsModalOpen(false);
-    }
+    // function changeTheme(isDark) {
+    //     if (isDark) {
+    //         setisDarktTeme(true);
+    //         document.documentElement.setAttribute('data-theme', "dark");
+    //     } else {
+    //         setisDarktTeme(false);
+    //         document.documentElement.setAttribute('data-theme', "light");
+    //     }
+    //     setIsModalOpen(false);
+    // }
     return (
         <div>
             <header className="header flex justify-around">
@@ -51,13 +50,13 @@ const Header = ({ scrollToElement, setActiveLanguage, activeLanguage }) => {
                 </ul>
                 <div className='header_container'>
                     <button className='container_button' onClick={setActiveLanguageHandle}>{activeLanguage.header.label}</button>
-                    {isDarkTheme && <img className='container_image' src={DarkImage} alt='dark' onClick={() => changeTheme(false)} />}
-                    {!isDarkTheme && <img className='container_image' src={LightImage} alt='dark' onClick={() => changeTheme(true)} />}
+                    {/* {isDarkTheme && <img className='container_image' src={DarkImage} alt='dark' onClick={() => changeTheme(false)} />}
+                    {!isDarkTheme && <img className='container_image' src={LightImage} alt='dark' onClick={() => changeTheme(true)} />} */}
                 </div>
             </header >
             <header className='header_small'>
                 {!isModalOpen && <svg onClick={() => setIsModalOpen(true)} className="small_burger" width="42" height="28" viewBox="0 0 42 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M2.25 1.5H39.75M2.25 14H39.75M2.25 26.5H39.75" stroke="#2A465C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M2.25 1.5H39.75M2.25 14H39.75M2.25 26.5H39.75" stroke="#2A465C" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>}
                 {isModalOpen && <svg onClick={() => setIsModalOpen(false)} className="small_cross" width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect x="1.72852" width="40.9493" height="2.44439" rx="1.22219" transform="rotate(45 1.72852 0)" fill="#D9D9D9" />
@@ -72,8 +71,8 @@ const Header = ({ scrollToElement, setActiveLanguage, activeLanguage }) => {
                         </ul>
                         <div className='header_container'>
                             <button className='container_button' onClick={setActiveLanguageHandle}>{activeLanguage.header.label}</button>
-                            {isDarkTheme && <img className='container_image' src={DarkImage} alt='dark' onClick={() => changeTheme(false)} />}
-                            {!isDarkTheme && <img className='container_image' src={LightImage} alt='dark' onClick={() => changeTheme(true)} />}
+                            {/* {isDarkTheme && <img className='container_image' src={DarkImage} alt='dark' onClick={() => changeTheme(false)} />}
+                            {!isDarkTheme && <img className='container_image' src={LightImage} alt='dark' onClick={() => changeTheme(true)} />} */}
                         </div>
                     </div>}
             </header>

@@ -21,7 +21,7 @@ svg circle {
 
 body {
   background-color: var(--background-primary);
-  margin-bottom: 150px;
+  margin-bottom: 10px;
 }
 
 .App {

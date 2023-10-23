@@ -1,14 +1,11 @@
 .education {
     width: 100%;
+    height: 550px;
 }
 
 .education .education_container .container_left,
 .education_container .container_right {
     width: calc(50% - 110px);
-}
-
-.education_container {
-    height: 650px;
 }
 
 .item_container h3 {
@@ -87,7 +84,7 @@
         display: block;
         position: relative;
         width: 80%;
-        height: 540px;
+        height: 550px;
         margin-left: 10%;
         overflow: hidden;
         margin-top: 40px;
