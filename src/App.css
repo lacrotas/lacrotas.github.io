@@ -88,3 +88,7 @@ h2,
     margin-right: 2.5%;
   }
 }
+
+.avatar_image{
+  filter: grayscale(50%);
+}

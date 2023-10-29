@@ -9,7 +9,7 @@ function Myinfo({activeLanguage}) {
         <section className="myinfo w-60 text-center mx-auto my_section">
             <h2 className='text-lg md:text-xl'>{activeLanguage.myInfo.name}</h2>
             <p className='text-sm md:text-base mt-2'>{activeLanguage.myInfo.profesion}</p>
-            <img className='mt-7' src={avatar} alt="avatar" />
+            <img className='mt-7 avatar_image' src={avatar} alt="avatar" />
             <div className='myinfo_flexbox flex justify-between w-40 mx-auto mt-5'>
                 <a title='telegram' href='https://t.me/shaiterePE'><img className='w-7' src={telegramIcon} alt='telegram' /></a>
                 <a title='inContact' href='https://vk.com/id574224844'><img className='w-7' src={inContactIcon} alt='inContact' /></a>
